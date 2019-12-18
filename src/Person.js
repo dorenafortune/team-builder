@@ -6,8 +6,8 @@ const Person = props => {
             {props.persons.map(person => (
                 <div className="person">
                     <h2>{person.name}</h2>
+                    <h3>{person.role}</h3>
                     <p>{person.email}</p>
-                    <p>{person.role}</p>
                     </div>
             ))}
         </div>

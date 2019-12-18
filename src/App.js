@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Form from "./Form"
+import Person from "./Person"
 
 function App() {
   const [persons, setPerson] = useState([{
@@ -39,6 +40,7 @@ function App() {
     <div className="App">
       <h1>Team Member</h1>
       <Form addNewPerson={addNewPerson}/>
+      <Person persons={persons}/>
 
     </div>
   );

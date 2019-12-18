@@ -11,8 +11,8 @@ function App() {
 
   },
   {
-    name: "Alice",
-    email: "followtherabbithole@gmail.com",
+    name: "Lupe",
+    email: "guadalupe@gmail.com",
     role: "Emergency Tech"
 
   },

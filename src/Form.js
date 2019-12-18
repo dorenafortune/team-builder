@@ -34,6 +34,7 @@ const Form = props => {
             name="name"
             value={person.name}
             />
+            
             <label htmlFor="email">Email:</label>
             <input
             id="email"
@@ -43,6 +44,8 @@ const Form = props => {
             name="email"
             value={person.email}
             />
+          
+            
              <label htmlFor="role">Role:</label>
             <input
             id="role"
@@ -50,8 +53,10 @@ const Form = props => {
             placeholder="Enter role"
             onChange={handleChanges}
             name="role"
-            value={person.email}
+            value={person.role}
             />
+            <br></br>
+            <br></br>
             <button type="submit">Add Member</button>
         </form>
 
